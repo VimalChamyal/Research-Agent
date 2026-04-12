@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+.env/
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# FAISS / vector DB
+*.pkl
+*.index
+
+# Secrets
+config/settings.py
+rag/config.py
+
+# Generated outputs
+*.md
+*.txt
+*.pdf
+
+# Cache
+.cache/
