@@ -83,11 +83,19 @@ streamlit run frontend_research_agent.py
 
 ## Project Structure
 
+<<<<<<< HEAD
 agents/        → Agent nodes (router, worker, etc.)
 rag/           → RAG pipeline (retrieval, refinement, evaluation)
 graphs/        → LangGraph workflow
 config/        → LLM + settings
 frontend_*.py  → Streamlit UI
+=======
+1. agents/        → Agent nodes (router, worker, etc.)
+2. rag/           → RAG pipeline (retrieval, refinement, evaluation)
+3. graphs/        → LangGraph workflow
+4. config/        → LLM + settings
+5. frontend_*.py  → Streamlit UI
+>>>>>>> b750f138d76d82e2431ea130a3255d2d74f1d4b2
 
 ## Key innovations
 
@@ -99,4 +107,8 @@ frontend_*.py  → Streamlit UI
 ## Future Improvements
 - Add analyst layer (cross-document reasoning)
 - Improve evaluation metrics
+<<<<<<< HEAD
 - Deploy on cloud
+=======
+- Deploy on cloud
+>>>>>>> b750f138d76d82e2431ea130a3255d2d74f1d4b2
